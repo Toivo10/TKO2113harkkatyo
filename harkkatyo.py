@@ -219,7 +219,8 @@ def show_statistics():
     else:
         print()
         print("No statistics.")
-
+	    
+# Näyttää pelaajan tulokset
 def show_player_results():
     player_id = input("Enter player id: ")
 
