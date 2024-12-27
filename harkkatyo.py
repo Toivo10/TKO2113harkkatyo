@@ -167,7 +167,7 @@ def add_game_session():
             print("Player added successfully!")
             print()
         except sqlite3.IntegrityError as e:
-            print("Error: this player ID does not exist or its already in this game session.")
+            print("Error: This player ID does not exist or its already in this game session.")
 
     print()
     print("Game session added successfully!")
